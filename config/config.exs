@@ -32,9 +32,9 @@ use Mix.Config
 config :app, ecto_repos: [App.Repo]
 
 config :app, App.Repo,
-    adapter: Ecto.Adapters.Postgres,
-    database: "business",
-    username: "postgres",
-    password: "postgres",
-    hostname: "localhost",
-    port: "5432"
+  adapter: Ecto.Adapters.Postgres,
+  database: "business",
+  username: "postgres",
+  password: "postgres",
+  hostname: "localhost",
+  port: "5432"
